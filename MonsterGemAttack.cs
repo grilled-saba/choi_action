@@ -73,7 +73,7 @@ public class MonsterGemAttack : MonoBehaviour
     private float nextAttackTime;  // 次回攻撃までの時間
 
     // ========================================
-    // 初期化
+    // ゲーム開始時に1回実行
     // ========================================
 
     void Start()
@@ -198,6 +198,7 @@ public class MonsterGemAttack : MonoBehaviour
     // ========================================
     // Gizmosで視覚化
     // ========================================
+
 
     void OnDrawGizmosSelected()
     {
