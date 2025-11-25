@@ -135,7 +135,7 @@ public class MonsterGemAI : MonoBehaviour
     public bool IsReturning => currentState == AIState.Return;  // 復帰中
 
     // ========================================
-    // 初期化
+    // ゲーム開始時に1回実行
     // ========================================
 
     void Start()
@@ -626,4 +626,5 @@ public class MonsterGemAI : MonoBehaviour
             UnityEditor.Handles.Label(transform.position + Vector3.up * 2f, statusText);
         }
     }
+
 }
