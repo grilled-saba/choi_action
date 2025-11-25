@@ -56,7 +56,7 @@ public class MonsterGemMovement : MonoBehaviour
     private Vector3 originalScale;
 
     // ========================================
-    // 初期化
+    // ゲーム開始時に1回実行
     // ========================================
 
     void Start()
@@ -232,4 +232,5 @@ public class MonsterGemMovement : MonoBehaviour
             Gizmos.DrawLine(transform.position, targetPosition);
         }
     }
+
 }
