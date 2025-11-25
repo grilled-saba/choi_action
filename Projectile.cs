@@ -94,7 +94,7 @@ public class Projectile : MonoBehaviour
     private float lifetime = 0f;
 
     // ========================================
-    // 初期化
+    // ゲーム開始時に1回実行
     // ========================================
 
     void Start()
@@ -243,4 +243,5 @@ public class Projectile : MonoBehaviour
             rb.linearVelocity *= velocityDamping;
         }
     }
+
 }
